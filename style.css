@@ -1,0 +1,50 @@
+html {
+  background-color: #8c52ff;
+}
+
+#my-canvas {
+  background-image: url("./images/rostopurple.gif");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #8c52ff;
+}
+
+#start-btn {
+  background-color: white;
+  color: #8c52ff;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 40px;
+  font-family: "comic sans";
+  border-radius: 10px;
+}
+
+.restart-btn {
+  background-color: white;
+  color: #8c52ff;
+  padding: 20px;
+  font-size: 20px;
+  margin-top: 40px;
+  font-family: "comic sans";
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#my-canvas {
+  display: none;
+}
+
+#gameover-screen {
+  display: none;
+}
+
+#gamewining-screen {
+  display: none;
+}
